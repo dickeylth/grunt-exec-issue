@@ -1,0 +1,17 @@
+{
+  "name": "grunt-exec-issue",
+  "version": "0.1.0",
+  "description": "grunt-exec issue demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-exec": "^1.0.1",
+    "lodash": "^4.16.3",
+    "npm": "^4.0.5"
+  }
+}
