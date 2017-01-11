@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-exec": "^1.0.1",
+    "grunt-exec": "^2.0.0-alpha.2",
     "lodash": "^4.16.3",
     "npm": "^4.0.5"
   }
