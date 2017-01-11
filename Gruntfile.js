@@ -10,7 +10,8 @@ module.exports = function (grunt) {
     exec: {
       npm_outdated: 'npm outdated --long --ansi --color',
       stdout: 'inherit',
-      stderr: 'inherit'
+      stderr: 'inherit',
+      stdio: 'inherit'
     }
   });
 
