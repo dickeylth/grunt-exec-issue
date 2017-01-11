@@ -8,10 +8,12 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     exec: {
-      npm_outdated: 'npm outdated --long --ansi --color',
-      stdout: 'inherit',
-      stderr: 'inherit',
-      stdio: 'inherit'
+      npm_outdated: {
+        command: 'npm outdated --long --ansi --color',
+        stdout: 'inherit',
+        stderr: 'inherit',
+        stdio: 'inherit'
+      }
     }
   });
 
